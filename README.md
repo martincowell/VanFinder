@@ -1,3 +1,3 @@
 Readme
 
-VanFinder - scrubs the internet for can price and mileage data. plots it. that's all.
+VanFinder - scrubs the internet for van price and mileage data. plots it. that's all.
