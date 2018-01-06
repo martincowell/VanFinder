@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f7bec8a-f80f-4cf7-b91f-3f6ae9d59065" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/data-generation/geckodriver.log" afterPath="$PROJECT_DIR$/data-generation/geckodriver.log" />
-      <change beforePath="$PROJECT_DIR$/data-generation/get-van-data.py" afterPath="$PROJECT_DIR$/data-generation/get-van-data.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/data-generation/van_visualizer.py" afterPath="$PROJECT_DIR$/data-generation/van_visualizer.py" />
-      <change beforePath="$PROJECT_DIR$/data-generation/vans_20171231_sprinter.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data-generation/vans_20171231_transit.json" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +29,8 @@
       <file leaf-file-name="van_visualizer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data-generation/van_visualizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+            <state relative-caret-position="473">
+              <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -262,8 +259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data-generation/van_visualizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        <state relative-caret-position="473">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
           <folding />
         </state>
       </provider>
