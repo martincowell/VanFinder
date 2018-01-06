@@ -8,7 +8,6 @@ from bs4 import BeautifulSoup
 import re
 from random import randint
 
-
 def get_temp_vals(td):
     return list(map(lambda x: int(x.get_text().strip().replace('\xa0°F', '')), td.find_all('td')[1:]))
 
@@ -44,7 +43,7 @@ def get_car_data(car_id, zip, distance, page):
 
     driver.get(url)
     # if page == 1:
-    time.sleep(randint(5,8))
+    time.sleep(randint(5, 8))
     html = driver.page_source
     bs = BeautifulSoup(html, 'html.parser')
 
@@ -75,16 +74,17 @@ def get_car_data(car_id, zip, distance, page):
         mileages.append(mileage)
     print(mileages)
 
-    # get IMV data
-    for res in results:
-        IMV_tag = res.find(string='cg-dealfinder-result-deal-imv ')
-        IMV = 0
-        if IMV_tag is not None:
-            IMV = int(IMV_tag.find_parent('p').get_text().strip().replace('CarGurus IMV of ', '').replace('$', '').replace(',', ''))
-        IMVs.append(IMV)
-    print(IMVs)
+    # # get IMV data
+    # for res in results:
+    #     IMV_tag = res.find(string='cg-dealfinder-result-deal-imv ')
+    #     IMV = 0
+    #     if IMV_tag is not None:
+    #         IMV = int(IMV_tag.find_parent('p').get_text().strip().replace('CarGurus IMV of ', '').replace('$', '').replace(',', ''))
+    #     IMVs.append(IMV)
+    # print(IMVs)
 
-    return dict(mileages=mileages,prices=prices,IMVs=IMVs)
+    #return dict(mileages=mileages, prices=prices, IMVs=IMVs)
+    return dict(mileages=mileages, prices=prices)
 
 def save_as_json(data):
     file = open('csv/vans.json', 'w', encoding='utf8')
@@ -94,9 +94,9 @@ def save_as_json(data):
 
 prices = []
 mileages = []
-IMVs = []
-for i in range(1, 36):
-    data=get_car_data(car_id, zip, distance, i)
+# IMVs = []
+for i in range(1, 10 + 1):
+    data = get_car_data(car_id, zip, distance, i)
     save_as_json(data)
-    print('page ' +str(i))
+    print('page ' + str(i))
 
