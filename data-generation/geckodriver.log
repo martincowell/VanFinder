@@ -2370,3 +2370,531 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, l
 1515237529193	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
 1515237529236	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
 1515237529271	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392491767	geckodriver	INFO	geckodriver 0.19.1
+1515392491772	geckodriver	INFO	Listening on 127.0.0.1:57636
+1515392495087	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.h1XJZf2XJuAZ"
+1515392498305	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:21:39.528 plugin-container[19214:423429] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515392500364	Marionette	INFO	Listening on port 57659
+1515392500440	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515392500491	Marionette	DEBUG	Register listener.js for window 2147483649
+1515392500509	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515392500963	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515392500963	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515392503405	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392505151	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-50492232-1, line 64: unreachable code after return statement
+1515392512704	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392513209	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392513216	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392557261	geckodriver	INFO	geckodriver 0.19.1
+1515392557265	geckodriver	INFO	Listening on 127.0.0.1:58143
+1515392558846	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.0b9JgOraJpeR"
+1515392561287	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:22:42.812 plugin-container[19252:424826] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x14f33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515392563380	Marionette	INFO	Listening on port 58151
+1515392563432	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515392563507	Marionette	DEBUG	Register listener.js for window 2147483649
+1515392563536	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515392565262	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515392565263	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515392567140	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392567309	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-50492232-1, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-50492232-1, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, line 64: unreachable code after return statement
+1515392577649	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392577822	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392577838	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392594179	geckodriver	INFO	geckodriver 0.19.1
+1515392594186	geckodriver	INFO	Listening on 127.0.0.1:58585
+1515392597486	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.TPyOZI6fzVv4"
+1515392599597	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:23:20.626 plugin-container[19279:425792] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515392601217	Marionette	INFO	Listening on port 58601
+1515392601243	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515392601299	Marionette	DEBUG	Register listener.js for window 2147483649
+1515392601319	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515392601602	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515392601603	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515392603654	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392603898	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392606293	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392606349	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392606349	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392879318	geckodriver	INFO	geckodriver 0.19.1
+1515392879324	geckodriver	INFO	Listening on 127.0.0.1:59826
+1515392881056	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.JbrRxoljqAK5"
+1515392881633	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:28:02.734 plugin-container[19426:429309] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x1523f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515392883374	Marionette	INFO	Listening on port 59839
+1515392883477	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515392883539	Marionette	DEBUG	Register listener.js for window 2147483649
+1515392883571	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515392884022	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515392884022	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515392886689	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392886729	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392888587	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392888843	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392888845	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392890493	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1515392890494	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392890643	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392893021	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392893067	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392893067	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392895425	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1515392895433	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515392895504	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393014267	geckodriver	INFO	geckodriver 0.19.1
+1515393014272	geckodriver	INFO	Listening on 127.0.0.1:60464
+1515393016141	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.hJVsVMAjXTQ3"
+1515393016694	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:30:17.657 plugin-container[19507:431445] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac2b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515393018205	Marionette	INFO	Listening on port 60476
+1515393018238	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515393018306	Marionette	DEBUG	Register listener.js for window 2147483649
+1515393018338	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515393018665	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515393018666	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515393020648	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393020832	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-50492232-1, line 64: unreachable code after return statement
+1515393098488	geckodriver	INFO	geckodriver 0.19.1
+1515393098494	geckodriver	INFO	Listening on 127.0.0.1:61128
+1515393100426	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.wxik6LXnVLO5"
+1515393102663	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:31:43.879 plugin-container[19558:432740] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515393104524	Marionette	INFO	Listening on port 61140
+1515393104592	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515393104652	Marionette	DEBUG	Register listener.js for window 2147483649
+1515393104716	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515393105935	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515393105935	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515393108321	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393108609	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-50492232-1, line 64: unreachable code after return statement
+1515393126414	geckodriver	INFO	geckodriver 0.19.1
+1515393126422	geckodriver	INFO	Listening on 127.0.0.1:61537
+1515393131048	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.OauUVc1pJmol"
+1515393132370	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:32:14.436 plugin-container[19580:433457] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15343, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515393135176	Marionette	INFO	Listening on port 61566
+1515393135284	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515393135398	Marionette	DEBUG	Register listener.js for window 2147483649
+1515393135442	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515393135799	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515393135800	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515393138520	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393138574	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393142865	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393143812	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393143816	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393311375	geckodriver	INFO	geckodriver 0.19.1
+1515393311382	geckodriver	INFO	Listening on 127.0.0.1:62563
+1515393314005	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.IdSPJ3LMMqrc"
+1515393316547	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:35:18.017 plugin-container[19685:436744] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xae3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515393319031	Marionette	INFO	Listening on port 62579
+1515393319082	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515393319206	Marionette	DEBUG	Register listener.js for window 2147483649
+1515393319245	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515393319618	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515393319619	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515393321867	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393322681	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-50492232-1, line 64: unreachable code after return statement
+1515393551375	geckodriver	INFO	geckodriver 0.19.1
+1515393551383	geckodriver	INFO	Listening on 127.0.0.1:64069
+1515393556050	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.VUQ0t00XibKQ"
+1515393559154	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:39:20.737 plugin-container[19803:440054] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15137, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515393561638	Marionette	INFO	Listening on port 64093
+1515393561681	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515393561765	Marionette	DEBUG	Register listener.js for window 2147483649
+1515393561805	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515393562224	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515393562225	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515393565257	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393565612	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-50492232-1, line 64: unreachable code after return statement
+1515393603839	geckodriver	INFO	geckodriver 0.19.1
+1515393603846	geckodriver	INFO	Listening on 127.0.0.1:64597
+1515393609083	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.1F9VD6MPmqZF"
+1515393614241	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:40:18.050 plugin-container[19835:440972] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x1523f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515393619521	Marionette	INFO	Listening on port 64638
+1515393619799	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515393619908	Marionette	DEBUG	Register listener.js for window 2147483649
+1515393619940	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515393621124	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515393621124	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515393624573	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393624867	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-50492232-1, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-50492232-1, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, line 64: unreachable code after return statement
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+2018-01-07 22:41:37.016 plugin-container[19978:442451] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x14f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1515393829579	geckodriver	INFO	geckodriver 0.19.1
+1515393829585	geckodriver	INFO	Listening on 127.0.0.1:49696
+1515393874140	geckodriver	INFO	geckodriver 0.19.1
+1515393874147	geckodriver	INFO	Listening on 127.0.0.1:49869
+1515393877275	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.gX7JugGI8z4c"
+1515393880449	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:44:41.854 plugin-container[20092:445014] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x1523f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515393882558	Marionette	INFO	Listening on port 49885
+1515393882588	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515393882928	Marionette	DEBUG	Register listener.js for window 2147483649
+1515393882961	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515393883291	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515393883291	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515393885571	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393885843	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393887489	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393888569	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393888569	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393889505	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1515393889583	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393889661	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393892668	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393892999	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393893000	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393894619	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1515393894619	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1515393894619	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1515393894619	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1515393894620	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1515393894620	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515393894732	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+[Child 20092, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 20092, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1515394139271	geckodriver	INFO	geckodriver 0.19.1
+1515394139276	geckodriver	INFO	Listening on 127.0.0.1:51155
+1515394140982	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.wxpvqOuGMUGU"
+1515394143214	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:49:04.255 plugin-container[20225:449017] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515394144638	Marionette	INFO	Listening on port 51163
+1515394144728	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515394144776	Marionette	DEBUG	Register listener.js for window 2147483649
+1515394144814	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515394145902	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515394145903	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515394148427	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394148601	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394149789	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394150030	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394150030	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394151653	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1515394151706	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394151758	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394153387	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394153483	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394153484	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394155305	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1515394155725	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394155810	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+1515394189173	geckodriver	INFO	geckodriver 0.19.1
+1515394189179	geckodriver	INFO	Listening on 127.0.0.1:51481
+1515394190272	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.I1vWN9KZjitM"
+1515394190784	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:49:51.582 plugin-container[20257:450158] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x14f03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515394191971	Marionette	INFO	Listening on port 51495
+1515394192036	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515394192085	Marionette	DEBUG	Register listener.js for window 2147483649
+1515394192107	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515394192347	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515394192347	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515394194517	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394194588	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-50492232-1, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-50492232-1, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, line 64: unreachable code after return statement
+1515394204912	geckodriver	INFO	geckodriver 0.19.1
+1515394204918	geckodriver	INFO	Listening on 127.0.0.1:51750
+1515394206015	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.dxp9T9gcjVjb"
+1515394206541	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:50:07.407 plugin-container[20272:450717] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515394207787	Marionette	INFO	Listening on port 51761
+1515394207900	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515394207955	Marionette	DEBUG	Register listener.js for window 2147483649
+1515394207990	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515394208192	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515394208192	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515394210265	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394210468	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394212561	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394213688	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394213688	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394239165	geckodriver	INFO	geckodriver 0.19.1
+1515394239171	geckodriver	INFO	Listening on 127.0.0.1:52010
+1515394240284	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.ebaQLs8fzy4O"
+1515394240815	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:50:41.708 plugin-container[20300:451626] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515394242067	Marionette	INFO	Listening on port 52020
+1515394242168	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515394242224	Marionette	DEBUG	Register listener.js for window 2147483649
+1515394242261	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515394243311	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515394243311	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515394245158	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394245344	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394246740	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394247486	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394247487	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394248577	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1515394248935	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394248938	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[Child 20300, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1515394267231	geckodriver	INFO	geckodriver 0.19.1
+1515394267239	geckodriver	INFO	Listening on 127.0.0.1:52240
+1515394268340	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.LXpafqBSkdmC"
+1515394268868	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:51:09.722 plugin-container[20325:452455] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x1513f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515394270099	Marionette	INFO	Listening on port 52250
+1515394270208	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515394270270	Marionette	DEBUG	Register listener.js for window 2147483649
+1515394270288	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515394270942	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515394270942	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515394273323	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394273544	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394274896	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394275343	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394275343	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394276514	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1515394276908	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394276910	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394279207	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394279438	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394279438	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394281072	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1515394281451	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394281516	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394283155	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394283207	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394283207	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394285455	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1515394285787	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394285850	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394287440	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394287508	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394287509	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394289368	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1515394289677	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394289728	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394291319	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394291421	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394291421	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394293484	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1515394293521	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394293572	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394295269	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394295349	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394295349	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394297325	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483673"
+1515394297364	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394297450	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394299120	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394299207	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394299210	Marionette	DEBUG	Received DOM event "unload" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394302143	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483677"
+1515394302145	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483680"
+1515394302161	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394302243	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+[Child 20325, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 20257, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 20257, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 20257, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1515394379882	geckodriver	INFO	geckodriver 0.19.1
+1515394379888	geckodriver	INFO	Listening on 127.0.0.1:52803
+1515394380988	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.Yl3BFRXcmp8x"
+1515394381507	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:53:02.325 plugin-container[20389:454763] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb003, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515394382696	Marionette	INFO	Listening on port 52813
+1515394382751	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515394382798	Marionette	DEBUG	Register listener.js for window 2147483649
+1515394382828	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515394383077	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515394383077	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515394386452	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+1515394386753	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page=1&perPage=100&rd=99999&searchSource=PAGINATION&sort=relevance&stkTypId=28881&trId=22711&zc=90278"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-50492232-1, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-50492232-1, line 64: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1069770364, line 64: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://secure.img-cdn.mediaplex.com/content/0/1551/CA_HOWMUCH_728x90_447_11012017_No_vCE/js/jquery-2.0.3.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1515394784660	geckodriver	INFO	geckodriver 0.19.1
+1515394784666	geckodriver	INFO	Listening on 127.0.0.1:54908
+1515394785767	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.UEDyi8SEcZA6"
+1515394786289	Marionette	INFO	Enabled via --marionette
+2018-01-07 22:59:47.116 plugin-container[20602:459478] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515394787632	Marionette	INFO	Listening on port 54918
+1515394787673	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515394787772	Marionette	DEBUG	Register listener.js for window 2147483649
+1515394787812	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515394788313	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515394788313	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515394789737	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=1"
+1515394790482	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=1"
+1515394797881	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=2"
+1515394806272	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=3"
+1515394813674	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=4"
+1515394819066	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=5"
+1515394827510	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=6"
+1515394835931	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=7"
+1515394844312	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=8"
+1515394851710	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=9"
+1515394857084	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=10"
+1515394989100	geckodriver	INFO	geckodriver 0.19.1
+1515394989107	geckodriver	INFO	Listening on 127.0.0.1:56136
+1515394990268	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.2NKbXNBC4ul5"
+1515394990805	Marionette	INFO	Enabled via --marionette
+2018-01-07 23:03:11.670 plugin-container[20726:461930] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaf03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515394992043	Marionette	INFO	Listening on port 56146
+1515394992155	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515394992209	Marionette	DEBUG	Register listener.js for window 2147483649
+1515394992228	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515394992646	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515394992647	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515394993813	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=1"
+1515394994463	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=1"
+1515395000874	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=2"
+1515395009310	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=3"
+1515395016677	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=4"
+1515395025135	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=5"
+1515395032762	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=6"
+1515395039160	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=7"
+1515395045570	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=8"
+1515395051991	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=9"
+JavaScript error: https://z.moatads.com/foxdealerdbm146070297032/moatad.js#moatClientLevel1=4372395&moatClientLevel2=15769542&moatClientLevel3=1&moatClientLevel4=70610530&moatClientSlicer1=https://www.cargurus.com/Cars/viewBannerAd.action, line 436: TypeError: v.dcsx.engn is not a function
+1515395058578	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true#resultsPage=10"
+1515395129806	geckodriver	INFO	geckodriver 0.19.1
+1515395129812	geckodriver	INFO	Listening on 127.0.0.1:57212
+1515395130955	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.Sum6UTvjvBT8"
+1515395131497	Marionette	INFO	Enabled via --marionette
+2018-01-07 23:05:32.497 plugin-container[20808:463790] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15003, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515395132875	Marionette	INFO	Listening on port 57222
+1515395132943	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515395132993	Marionette	DEBUG	Register listener.js for window 2147483649
+1515395133033	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515395133468	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515395133468	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515395134621	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1830&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Crew+Van&modelChanged=false&filtersModified=true#resultsPage=1"
+1515395135181	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1830&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Crew+Van&modelChanged=false&filtersModified=true#resultsPage=1"
+1515395140610	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1830&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Crew+Van&modelChanged=false&filtersModified=true#resultsPage=2"
+1515395147021	Marionette	DEBUG	Received DOM event "popstate" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1830&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Crew+Van&modelChanged=false&filtersModified=true#resultsPage=3"
+1515395239116	geckodriver	INFO	geckodriver 0.19.1
+1515395239126	geckodriver	INFO	Listening on 127.0.0.1:57908
+1515395240264	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8r/s0b5k2j16td4c961ssq0270h0000gn/T/rust_mozprofile.b9ebXU1oCxMc"
+1515395240825	Marionette	INFO	Enabled via --marionette
+2018-01-07 23:07:21.797 plugin-container[20886:465350] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15207, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515395242187	Marionette	INFO	Listening on port 57918
+1515395242252	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515395242304	Marionette	DEBUG	Register listener.js for window 2147483649
+1515395242343	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515395242826	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515395242826	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515395243973	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1830&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Crew+Van&modelChanged=false&filtersModified=true#resultsPage=1"
+[Child 20886, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709

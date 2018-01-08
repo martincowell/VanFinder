@@ -23,21 +23,27 @@ page = 1
 driver = webdriver.Firefox()
 
 def get_cargurus(car_id, zip, distance, page):
-    url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=' \
-          'carGurusHomePage_false_0&' \
-          'newSearchFromOverviewPage=true&' \
-          'inventorySearchWidgetType=AUTO&' \
-          'entitySelectingHelper.selectedEntity=' + str(car_id) + '&' \
-          'entitySelectingHelper.selectedEntity2=&' \
-          'zip=' + str(zip) + '&' \
-          'distance=' + str(distance) + '&' \
-          'searchChanged=true&' \
-          'trimNames=2500+144+WB+Cargo+Van&' \
-          'modelChanged=false&' \
-          'filtersModified=true' \
+    # url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=' \
+    #       'carGurusHomePage_false_0&' \
+    #       'newSearchFromOverviewPage=true&' \
+    #       'inventorySearchWidgetType=AUTO&' \
+    #       'entitySelectingHelper.selectedEntity=' + str(car_id) + '&' \
+    #       'entitySelectingHelper.selectedEntity2=&' \
+    #       'zip=' + str(zip) + '&' \
+    #       'distance=' + str(distance) + '&' \
+    #       'searchChanged=true&' \
+    #       'trimNames=2500+144+WB+Cargo+Van&' \
+    #       'modelChanged=false&' \
+    #       'filtersModified=true' \
+    #       '#resultsPage=' + str(page)
+
+    # Sprinter 2500 Cargo 144
+    url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true' \
           '#resultsPage=' + str(page)
 
-    #url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1067&entitySelectingHelper.selectedEntity2=c27197&zip=90278&distance=50000&searchChanged=true&trimNames=250+3dr+LWB+High+Roof+Cargo+Van+w%2FSliding+Passenger+Side+Door&trimNames=250+3dr+LWB+High+Roof+Extended+w%2FSliding+Passenger+Side+Door&trimNames=250+3dr+LWB+High+Roof+w%2FSliding+Passenger+Side+Door&trimNames=250+3dr+LWB+High+Roof+Extended+Cargo+Van+w%2FSliding+Passenger+Side+Door&modelChanged=false&filtersModified=true'
+    # Sprinter 2500 Crew 144
+    url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1830&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Crew+Van&modelChanged=false&filtersModified=true' \
+         '#resultsPage=' + str(page)
 
     print(url)
 
@@ -104,7 +110,7 @@ def get_carscom(car_id, zip, distance, page):
 
     driver.get(url)
     # if page == 1:
-    time.sleep(randint(5, 8))
+    #time.sleep(randint(5, 8))
     html = driver.page_source
     bs = BeautifulSoup(html, 'html.parser')
 
@@ -115,20 +121,20 @@ def get_carscom(car_id, zip, distance, page):
 
     # get price data
     for res in results:
-        price_tag = res.find(string='listing-row__price')
-        print(price_tag)
+        price_tag = res.find('span', 'listing-row__price')
+        #print(price_tag)
         price = 0
         if price_tag is not None:
-            price = int(price_tag.find_parent('p').find('span').find_all('span')[0].get_text().strip().replace('$', '').replace(',', '').replace('No Price Listed','0'))
+            price = int(price_tag.get_text().strip().replace('$', '').replace(',', '').replace('Not Priced','0'))
         prices.append(price)
     print(prices)
 
     # get mileage data
     for res in results:
-        mile_tag = res.find(string='listing-row__mileage')
+        mile_tag = res.find('span', 'listing-row__mileage')
         mileage = 0
         if mile_tag is not None:
-            mileage = int(mile_tag.find_parent('p').get_text().strip().replace('Mileage: ', '').replace(' mi', '').replace(',', '').replace('N/A', '0'))
+            mileage = int(mile_tag.get_text().strip().replace(' mi.', '').replace(',', '').replace('N/A', '0'))
         mileages.append(mileage)
     print(mileages)
 
@@ -143,16 +149,16 @@ def save_as_json(fname, data):
 prices = []
 mileages = []
 
-if 0:
+if 1:
     fname = 'cargurus'
-    for i in range(1, 10 + 1):
+    for i in range(1, 3 + 1):
         data = get_cargurus(car_id, zip, distance, i)
         save_as_json(fname, data)
         print('page ' + str(i))
 
-if 1:
+if 0:
     fname = 'carscom'
-    for i in range(1, 10 + 1):
+    for i in range(1, 1+1):
         data = get_carscom(car_id, zip, distance, i)
         save_as_json(fname, data)
         print('page ' + str(i))
