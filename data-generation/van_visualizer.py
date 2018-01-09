@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import json
 
-sets = {'20180107_cargurus_cargo': 'black', '20180107_cargurus_crew': 'red', '20180107_carscom_cargo': 'blue'}
+sets = {'20180107_cargurus_cargo': 'blue', '20180107_cargurus_crew': 'red', '20180107_carscom_high': 'black'}
 
 fig, ax = plt.subplots()
 for filename, color in sets.items():
@@ -41,7 +41,7 @@ for filename, color in sets.items():
 
 ax.set_xlabel(r'Odometer [mi]', fontsize=15)
 ax.set_ylabel(r'Price [$]', fontsize=15)
-ax.set_title('VanComparison \n cargurus.com')
+ax.set_title('VanComparison')
 plt.xlim(0, 250000)
 plt.ylim(0, 60000)
 ax.legend()

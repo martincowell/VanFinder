@@ -37,13 +37,13 @@ def get_cargurus(car_id, zip, distance, page):
     #       'filtersModified=true' \
     #       '#resultsPage=' + str(page)
 
-    # Sprinter 2500 Cargo 144
+    # Mercedes Sprinter 2500 Cargo 144
     url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true' \
           '#resultsPage=' + str(page)
 
-    # Sprinter 2500 Crew 144
-    url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1830&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Crew+Van&modelChanged=false&filtersModified=true' \
-         '#resultsPage=' + str(page)
+    # Mercedes Sprinter 2500 Crew 144
+    # url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1830&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Crew+Van&modelChanged=false&filtersModified=true' \
+    #     '#resultsPage=' + str(page)
 
     print(url)
 
@@ -95,16 +95,9 @@ def get_cargurus(car_id, zip, distance, page):
 
 
 def get_carscom(car_id, zip, distance, page):
-    url = 'https://www.cars.com/for-sale/searchresults.action/?mdId=22183&' \
-        'mkId=20028&' \
-        'page=1&' \
-        'perPage=100&' \
-        'rd=99999&' \
-        'searchSource=PAGINATION&' \
-        'sort=relevance&' \
-        'stkTypId=28881&' \
-        'trId=22711&' \
-        'zc=90278'
+
+    # Mercedes Sprinter 2500 High Roof
+    url = 'https://www.cars.com/for-sale/searchresults.action/?mdId=22183&mkId=20028&page='+ str(page) +'&perPage=100&rd=99999&searchSource=GN_REFINEMENT&sort=relevance&stkTypId=28881&trId=22711&zc=90278'
 
     print(url)
 
@@ -149,16 +142,16 @@ def save_as_json(fname, data):
 prices = []
 mileages = []
 
-if 1:
+if 0:
     fname = 'cargurus'
-    for i in range(1, 3 + 1):
+    for i in range(1, 10 + 1):
         data = get_cargurus(car_id, zip, distance, i)
         save_as_json(fname, data)
         print('page ' + str(i))
 
-if 0:
+if 1:
     fname = 'carscom'
-    for i in range(1, 1+1):
+    for i in range(1, 1 + 1):
         data = get_carscom(car_id, zip, distance, i)
         save_as_json(fname, data)
         print('page ' + str(i))
