@@ -38,12 +38,12 @@ def get_cargurus(car_id, zip, distance, page):
     #       '#resultsPage=' + str(page)
 
     # Mercedes Sprinter 2500 Cargo 144
-    url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true' \
-          '#resultsPage=' + str(page)
+    #url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true' \
+    #      '#resultsPage=' + str(page)
 
     # Mercedes Sprinter 2500 Crew 144
-    # url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1830&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Crew+Van&modelChanged=false&filtersModified=true' \
-    #     '#resultsPage=' + str(page)
+    url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1830&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Crew+Van&modelChanged=false&filtersModified=true' \
+          '#resultsPage=' + str(page)
 
     print(url)
 
@@ -142,14 +142,14 @@ def save_as_json(fname, data):
 prices = []
 mileages = []
 
-if 0:
+if 1:
     fname = 'cargurus'
-    for i in range(1, 10 + 1):
+    for i in range(1, 3 + 1):
         data = get_cargurus(car_id, zip, distance, i)
         save_as_json(fname, data)
         print('page ' + str(i))
 
-if 1:
+if 0:
     fname = 'carscom'
     for i in range(1, 1 + 1):
         data = get_carscom(car_id, zip, distance, i)
