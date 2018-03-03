@@ -8,7 +8,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import json
 
-sets = {'20180112_cargurus_cargo': 'blue', '20180112_cargurus_crew': 'red', '20180112_carscom_high': 'black'}
+#sets = {'20180123_cargurus_cargo': 'blue', '20180123_cargurus_crew': 'red', '20180123_carscom_high': 'black'}
+sets = {'20180128_cg_FTrans_148_HR': 'black', '20180218_cg_FTrans_148_HR': 'red'}
 
 fig, ax = plt.subplots()
 for filename, color in sets.items():
@@ -46,5 +47,5 @@ plt.xlim(0, 250000)
 plt.ylim(0, 60000)
 ax.legend()
 
-plt.savefig('20180112.pdf')
+plt.savefig('20180128_Ftransit_Msprinter.pdf')
 plt.show()

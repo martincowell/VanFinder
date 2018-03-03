@@ -23,27 +23,22 @@ page = 1
 driver = webdriver.Firefox()
 
 def get_cargurus(car_id, zip, distance, page):
-    # url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=' \
-    #       'carGurusHomePage_false_0&' \
-    #       'newSearchFromOverviewPage=true&' \
-    #       'inventorySearchWidgetType=AUTO&' \
-    #       'entitySelectingHelper.selectedEntity=' + str(car_id) + '&' \
-    #       'entitySelectingHelper.selectedEntity2=&' \
-    #       'zip=' + str(zip) + '&' \
-    #       'distance=' + str(distance) + '&' \
-    #       'searchChanged=true&' \
-    #       'trimNames=2500+144+WB+Cargo+Van&' \
-    #       'modelChanged=false&' \
-    #       'filtersModified=true' \
-    #       '#resultsPage=' + str(page)
 
     # Mercedes Sprinter 2500 Cargo 144
     #url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d2219&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Cargo+Van&modelChanged=false&filtersModified=true' \
     #      '#resultsPage=' + str(page)
 
     # Mercedes Sprinter 2500 Crew 144
-    url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1830&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Crew+Van&modelChanged=false&filtersModified=true' \
+    #url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1830&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Crew+Van&modelChanged=false&filtersModified=true' \
+    #      '#resultsPage=' + str(page)
+
+    # Ford Transit Cargo Long WB High Roof
+    url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1067&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=250+3dr+LWB+High+Roof+Cargo+Van+w%2FSliding+Passenger+Side+Door&trimNames=250+3dr+LWB+High+Roof+w%2FSliding+Passenger+Side+Door&modelChanged=false&filtersModified=true' \
           '#resultsPage=' + str(page)
+
+    # all the ford transits
+    #url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1067&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&lostFilters=Trims&modelChanged=true&filtersModified=true' \
+    #      '#resultsPage=' + str(page)
 
     print(url)
 
@@ -143,14 +138,14 @@ prices = []
 mileages = []
 
 if 1:
-    fname = 'cargurus'
-    for i in range(1, 3 + 1):
+    fname = '20180218_cg_FTrans_148_HR'
+    for i in range(1, 5 + 1):
         data = get_cargurus(car_id, zip, distance, i)
         save_as_json(fname, data)
         print('page ' + str(i))
 
 if 0:
-    fname = 'carscom'
+    fname = '20180123_carscom_high'
     for i in range(1, 1 + 1):
         data = get_carscom(car_id, zip, distance, i)
         save_as_json(fname, data)
