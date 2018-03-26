@@ -32,8 +32,12 @@ def get_cargurus(car_id, zip, distance, page):
     #url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1830&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=2500+144+WB+Crew+Van&modelChanged=false&filtersModified=true' \
     #      '#resultsPage=' + str(page)
 
-    # Ford Transit Cargo Long WB High Roof
-    url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1067&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=250+3dr+LWB+High+Roof+Cargo+Van+w%2FSliding+Passenger+Side+Door&trimNames=250+3dr+LWB+High+Roof+w%2FSliding+Passenger+Side+Door&modelChanged=false&filtersModified=true' \
+    # Ford Transit Cargo Long 148 WB High Roof
+    #url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1067&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=250+3dr+LWB+High+Roof+Cargo+Van+w%2FSliding+Passenger+Side+Door&trimNames=250+3dr+LWB+High+Roof+w%2FSliding+Passenger+Side+Door&modelChanged=false&filtersModified=true' \
+    #      '#resultsPage=' + str(page)
+
+    # Ford Transit Cargo Long 148 WB High Roof Non-Extended
+    url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=c24835&entitySelectingHelper.selectedEntity2=c26306&zip=90278&distance=50000&searchChanged=true&trimNames=250+3dr+LWB+High+Roof+Cargo+Van+w%2FSliding+Passenger+Side+Door&trimNames=250+3dr+LWB+High+Roof+w%2FSliding+Passenger+Side+Door&trimNames=350+3dr+LWB+High+Roof+Cargo+Van+w%2FSliding+Passenger+Side+Door&modelChanged=false&filtersModified=true' \
           '#resultsPage=' + str(page)
 
     # all the ford transits
@@ -138,7 +142,7 @@ prices = []
 mileages = []
 
 if 1:
-    fname = '20180218_cg_FTrans_148_HR'
+    fname = '20180324_cg_FTrans_148_HR_NExt'
     for i in range(1, 5 + 1):
         data = get_cargurus(car_id, zip, distance, i)
         save_as_json(fname, data)
