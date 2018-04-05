@@ -36,8 +36,12 @@ def get_cargurus(car_id, zip, distance, page):
     #url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePage_false_0&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1067&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=250+3dr+LWB+High+Roof+Cargo+Van+w%2FSliding+Passenger+Side+Door&trimNames=250+3dr+LWB+High+Roof+w%2FSliding+Passenger+Side+Door&modelChanged=false&filtersModified=true' \
     #      '#resultsPage=' + str(page)
 
-    # Ford Transit Cargo Long 148 WB High Roof Non-Extended
-    url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=c24835&entitySelectingHelper.selectedEntity2=c26306&zip=90278&distance=50000&searchChanged=true&trimNames=250+3dr+LWB+High+Roof+Cargo+Van+w%2FSliding+Passenger+Side+Door&trimNames=250+3dr+LWB+High+Roof+w%2FSliding+Passenger+Side+Door&trimNames=350+3dr+LWB+High+Roof+Cargo+Van+w%2FSliding+Passenger+Side+Door&modelChanged=false&filtersModified=true' \
+    # Ford Transit Cargo Long 148 WB High Roof Non-Extended 2016-2017
+    #url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=c24835&entitySelectingHelper.selectedEntity2=c26306&zip=90278&distance=50000&searchChanged=true&trimNames=250+3dr+LWB+High+Roof+Cargo+Van+w%2FSliding+Passenger+Side+Door&trimNames=250+3dr+LWB+High+Roof+w%2FSliding+Passenger+Side+Door&trimNames=350+3dr+LWB+High+Roof+Cargo+Van+w%2FSliding+Passenger+Side+Door&modelChanged=false&filtersModified=true' \
+    #      '#resultsPage=' + str(page)
+
+    # Ford Transit Cargo Long 148 WB High Roof Non-Extended AllYears
+    url = 'https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=&newSearchFromOverviewPage=true&inventorySearchWidgetType=AUTO&entitySelectingHelper.selectedEntity=d1067&entitySelectingHelper.selectedEntity2=&zip=90278&distance=50000&searchChanged=true&trimNames=250+3dr+LWB+High+Roof+Cargo+Van+w%2FSliding+Passenger+Side+Door&trimNames=250+3dr+LWB+High+Roof+w%2FSliding+Passenger+Side+Door&trimNames=350+3dr+LWB+High+Roof+Cargo+Van+w%2FSliding+Passenger+Side+Door&modelChanged=false&filtersModified=true' \
           '#resultsPage=' + str(page)
 
     # all the ford transits
@@ -79,15 +83,6 @@ def get_cargurus(car_id, zip, distance, page):
             mileage = int(mile_tag.find_parent('p').get_text().strip().replace('Mileage: ', '').replace(' mi', '').replace(',', '').replace('N/A', '0'))
         mileages.append(mileage)
     print(mileages)
-
-    # # get IMV data
-    # for res in results:
-    #     IMV_tag = res.find(string='cg-dealfinder-result-deal-imv ')
-    #     IMV = 0
-    #     if IMV_tag is not None:
-    #         IMV = int(IMV_tag.find_parent('p').get_text().strip().replace('CarGurus IMV of ', '').replace('$', '').replace(',', ''))
-    #     IMVs.append(IMV)
-    # print(IMVs)
 
     #return dict(mileages=mileages, prices=prices, IMVs=IMVs)
     return dict(mileages=mileages, prices=prices)
@@ -142,8 +137,8 @@ prices = []
 mileages = []
 
 if 1:
-    fname = '20180324_cg_FTrans_148_HR_NExt'
-    for i in range(1, 5 + 1):
+    fname = '20180404_cg_FTrans_148_HR_NExt'
+    for i in range(1, 6 + 1):
         data = get_cargurus(car_id, zip, distance, i)
         save_as_json(fname, data)
         print('page ' + str(i))

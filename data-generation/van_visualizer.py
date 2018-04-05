@@ -9,7 +9,7 @@ import pandas as pd
 import json
 
 #sets = {'20180128_cg_FTrans_148_HR': 'black', '20180218_cg_FTrans_148_HR': 'black', '20180311_cg_FTrans_148_HR': 'red'}
-sets = {'20180324_cg_FTrans_148_HR_NExt': 'black'}
+sets = {'20180403_cg_FTrans_148_HR_NExt': 'black', '20180404_cg_FTrans_148_HR_NExt': 'red'}
 
 fig, ax = plt.subplots()
 for filename, color in sets.items():
@@ -42,10 +42,10 @@ for filename, color in sets.items():
 
 ax.set_xlabel(r'Odometer [mi]', fontsize=15)
 ax.set_ylabel(r'Price [$]', fontsize=15)
-ax.set_title('VanComparison')
+ax.set_title('Ford Transit')
 plt.xlim(0, 150000)
 plt.ylim(0, 40000)
 ax.legend()
 
-plt.savefig('20180324_FTrans_148HR_NExt.pdf')
+plt.savefig('201800404_FTrans_148HR_NExt.pdf')
 plt.show()
